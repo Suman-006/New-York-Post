@@ -114,6 +114,7 @@ sup {
     z-index: 9999;
     top: 0;
     bottom: 0;
+    left:0;
 }
 /* .people_love h2 span{
     font-size: ;
@@ -440,7 +441,6 @@ div.triangle-bg {
     .left_area{max-width:80% !important}
     div.fixed{position: relative;width:100%;}
     .heading_one{ font-size: 60px;}
-    .div_left_border{display:none}
     .sports_content, .left_area{max-width: 100%;}
     .frame_slider{display: none !important;}
 }

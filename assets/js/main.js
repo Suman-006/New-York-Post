@@ -84,7 +84,7 @@ $(document).ready(function () {
     $(window).on("scroll", function () {
       const scrollY = $(this).scrollTop();
   
-      if (scrollY >= (sectionOffsetTop + 70) && scrollY <= sectionOffsetTop + (sectionHeight - 260)) {
+      if (scrollY >= (sectionOffsetTop + 40) && scrollY <= sectionOffsetTop + (sectionHeight - 260)) {
         console.log(scrollY);
         $stickyDiv.addClass("fixed");
       } else {
