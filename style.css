@@ -116,9 +116,7 @@ sup {
     bottom: 0;
     left:0;
 }
-/* .people_love h2 span{
-    font-size: ;
-} */
+
 /* END OF PEOPLE LOVE THE MOST */
 
 /* SPORTS PORDCAST */
@@ -443,6 +441,9 @@ div.triangle-bg {
     .heading_one{ font-size: 60px;}
     .sports_content, .left_area{max-width: 100%;}
     .frame_slider{display: none !important;}
+    .triangle-bg {
+        clip-path: polygon(-40% 0%, 140% 0%, 50% 100%);
+    }
 }
 
 @media(max-width:767px){
